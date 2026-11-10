@@ -1,0 +1,6 @@
+class   support   recall  precision    spec      F1
+N         44218    0.912      0.979   0.839   0.944
+S          1836    0.757      0.307   0.934   0.436
+V          3219    0.887      0.922   0.995   0.904
+F           388    0.036      0.017   0.983   0.023
+accuracy 0.8976 | macro recall 0.6478 | macro F1 0.5768

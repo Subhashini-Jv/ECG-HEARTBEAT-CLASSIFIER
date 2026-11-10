@@ -1,0 +1,9 @@
+data/
+__pycache__/
+*.pyc
+runs/ablation_*/
+
+.venv/
+*.csv
+!runs/main/per_record.csv
+.pytest_cache/

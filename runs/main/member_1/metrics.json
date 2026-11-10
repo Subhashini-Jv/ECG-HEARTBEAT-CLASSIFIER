@@ -1,0 +1,81 @@
+{
+  "accuracy": 0.8975856305753005,
+  "macro_recall": 0.6477574486997837,
+  "macro_f1": 0.5767609885308552,
+  "per_class": {
+    "N": {
+      "support": 44218,
+      "recall": 0.9118006241801981,
+      "precision": 0.9787585269341879,
+      "specificity": 0.8392430644864964,
+      "f1": 0.9440938520799429
+    },
+    "S": {
+      "support": 1836,
+      "recall": 0.7565359477124183,
+      "precision": 0.3066902185913005,
+      "specificity": 0.9343439623627809,
+      "f1": 0.43644933228593874
+    },
+    "V": {
+      "support": 3219,
+      "recall": 0.8866107486797142,
+      "precision": 0.9215369712625121,
+      "specificity": 0.9947676671977951,
+      "f1": 0.9037365421152629
+    },
+    "F": {
+      "support": 388,
+      "recall": 0.03608247422680412,
+      "precision": 0.0166270783847981,
+      "specificity": 0.9831956649686441,
+      "f1": 0.02276422764227642
+    }
+  },
+  "confusion_matrix": [
+    [
+      40318,
+      2985,
+      167,
+      748
+    ],
+    [
+      369,
+      1389,
+      70,
+      8
+    ],
+    [
+      138,
+      155,
+      2854,
+      72
+    ],
+    [
+      368,
+      0,
+      6,
+      14
+    ]
+  ],
+  "split": "inter",
+  "n_models": 1,
+  "best_epoch": 15,
+  "best_val_macro_recall": 0.7299381607422307,
+  "train_config": {
+    "epochs": 15,
+    "batch_size": 256,
+    "lr": 0.002,
+    "weight_decay": 0.001,
+    "weight_power": 1.0,
+    "label_smoothing": 0.0,
+    "augment": true,
+    "use_rr": true,
+    "patience": 8,
+    "channels": "diff",
+    "ema_decay": 0.998,
+    "seed": 1,
+    "device": "auto",
+    "extra": {}
+  }
+}
